@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Greenie Cheng - vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>body {
+  width: 700px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: initial;
+}
+
+header a {
+  float: right;
+}
+
+h2 {
+  background-color: #ccc;
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.block li {
+  padding-left: 10px;
+}
+
+.block {
+  list-style: initial;
+  padding-left: 20px;
+}
+
+.block > li > h3 {
+  display: inline; /* so address floats correctly against it */
+
+}
+.block > li > address, .block > li > p > span {
+  float: right;
+}
+.block > li > p {
+  display: block;
+  margin: 0px;
+}
+
+/*
+.block > li > ul > li > strong::after {
+  content: ": ";
+}
+*/
+
+.block > li > ul {
+  margin-top: 5px; /*dont really want this if there's an h4 in between though*/
+  margin-bottom: 5px;
+}
+
+
+</style>
+    <meta name="author" content="Greenie Cheng">
+  </head>
+  <body>
+    <header>
+      <h1>Greenie Cheng</h1>
+      <address>London, UK, SE13<a href="mailto:greenie.cheng@gmail.com">greenie.cheng@gmail.com</a></address>
+      <a href="https://greeniecheng.com">greeniecheng.com</a>
+    </header>
+    <ul id="main">
+      <li><h2>Profile</h2>
+<p>Product minded generalist and full stack software engineer with many years of proven track record in delivering quality production systems through the complete software development cycle, from ideation and validation, to requirement specifications and working software. Analytical, direct and play well with others. </p>
+</li>
+      <li><h2>Education</h2>
+<ul class="block">
+  <li>
+    <h3>University of London</h3>
+    <address>London, UK</address>
+    <p>LLB (Law) <span>2008 - 2010</span></p>
+    <ul>
+      <li>- Interest in law ignited by cease and desist letters for one of my mobile apps</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Hong Kong Polytechnic University</h3>
+    <address>Hong Kong</address>
+    <p>Master of Science (Applied Computing) <span>2005 - 2007</span></p>
+    <ul>
+      <li>- Dissertation research in airfreight bin packing problem using heuristics and a genetic algorithm</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Rensselaer Polytechnic Institute</h3>
+    <address>New York, USA</address>
+    <p>Bachelor of Science (Computer and Systems Engineering) <span>2001 - 2004</span></p>
+    <ul>
+      <li>- Also worked as a research assistant on pattern recognition</li>
+    </ul>
+  </li>
+</ul>
+</li>
+      <li><h2>Employment</h2>
+<ul class="block">
+  <li>
+    <h3>Curio Labs</h3>
+    <address>London, UK</address>
+    <p>Senior Software Engineer<span>2020 - Present</span></p>
+    <ul>
+      <li><strong>Completed migration</strong> from PHP Laravel monolith to microservices deployed on AWS Lambda</li>
+      <li><strong>Upgraded crucial services</strong> in user authentication system, subscription management, billing services from legacy to modern vendor solutions with zero service disruption</li>
+      <li><strong>Implement monitoring</strong> across microservices and clients with Sentry and standardize log format for tracing requests across AWS CloudWatch</li>
+      <li><strong>Develop features and fix bugs</strong> for backend services (AWS Lambda, Elastic Beanstalk, SNS, SQS, RDS, Personalize) and web platform (React on S3)</li>
+      <li><strong>Manage infrastructure</strong> configurations on Route53, CloudFront and CloudFormation</li>
+      <li><strong>Participate in Agile</strong> methodology and SCRUM ceremonies</li>
+    </ul>
+  </li>
+  <li>
+    <h3>GrantTree</h3>
+    <address>London, UK</address>
+    <p>CTO and Software Engineer<span>2013 - 2020</span></p>
+    <ul>
+      <li><strong>Worked with internal team of 40</strong> to design and build the tools they need to be effective in their work including a claim and customer workflow management system (Angular and Flask), an open source data analytic platform (Superset on Apache) and many more</li>
+      <li><strong>Built ETL data pipelines</strong> and advocated relentlessly for data-driven decision making in all areas of the business</li>
+      <li><strong>Developed safeguards and protocols</strong> to reduce risks of cyber security breaches including company training, process development and advocacy and configuring access level controls</li>
+      <li><strong>Managed the budgets and negotiated</strong> with IT providers on service contracts</li>
+      <li><strong>Reduced operational costs by ~£150k/year</strong> with new tax software and acquired a tax qualification to train the team</li>
+    </ul>
+  </li>
+  <li>
+    <h3>8 Securities</h3>
+    <address>Hong Kong</address>
+    <p>Product Evangelist and Head of Sales<span>2011 - 2013</span></p>
+    <ul>
+      <li><strong>Managed client relationships</strong> with the early adopters and promoted our product at tech events and meetups</li>
+      <li><strong>Advocated for clients</strong> and worked with product development and marketing teams on feature prioitization and marketing strategies for our equities trading platform</li>
+      <li><strong>Performed platform services manually</strong> during incidents to ensure zero service disruption (and acquired a stockbroker license for this)</li>
+      <li><strong>Wore multiple hats </strong> as per business needs from customer support to product testing to investor relations</li>
+    </ul>
+  </li>
+  <li>
+    <h3>LexisNexis</h3>
+    <address>Hong Kong</address>
+    <p>Product Trainer<span>2010 - 2011</span></p>
+    <ul>
+      <li><strong>Launched a new business development initiative</strong> and was product owner to repackage global products for regional clients</li>
+      <li><strong>Spoke frequently at events</strong> about our products and was sought after as a legal software trainer and speaker at seminars, chambers and law firms</li>
+      <li><strong>Wrote automation scripts</strong> to collect and analyze marketing statistics and built a sales reporting tool to save time for other teams</li>
+      <li><strong>Received an employee award</strong> for excellent performance</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Marsu Web Services</h3>
+    <address>Hong Kong</address>
+    <p>Founder & Software Developer<span>2006 - 2010</span></p>
+    <ul>
+      <li><strong>Founded a web service company</strong> to build and design mobile apps on iOS, Android and web, including a traffic condition app, a location-based service for local businesses with reviews and ratings, a sleep cycle app, and an expenses sharing calculator</li>
+      <li><strong>Contracted for small businesses</strong> to provide website hosting, customize open source CRMs (Joomla and Drupal), setup video streaming servers on Linux VMs</li>
+      <li><strong>Designed and built a workflow solution</strong> for the recruitment industry using PHP, ASP, VBA and third party integrations such as Twilio</li>
+    </ul>
+  </li>
+  <li>
+    <h3>ASTRI (Applied Science and Technology Research Institute)</h3>
+    <address>Hong Kong</address>
+    <p>Senior Firmware Engineer<span>2005 - 2008</span></p>
+    <ul>
+      <li><strong>Promoted to senior</strong> after two years of working in the multimedia broadcasting team</li>
+      <li><strong>Worked on high-definition streaming technology</strong> specifically on electronic programming guide, picture-in-picture functionality and Chinese subtitles encoding in C on embedded Linux</li>
+      <li><strong>Liaised with clients as the technical consultant</strong> to their R&D teams, gathered requirements, wrote technical specifications and fix issues on-site</li>
+    </ul>
+  </li>
+</ul>
+<br/>
+</li>
+      <!-- <li><h2>Courses</h2>
+<ul class="block">
+  <li>
+    <h3>AWS Certified Solutions Architect Associate</h3>
+    <p>Currently pursuing<span>2020 - 2021</span></p>
+    <ul>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <h3>Fundamentals of Project Planning and Management</h3>
+    <p>Coursera<span>2015</span></p>
+    <ul>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+</li> //-->
+      <li><h2>Languages</h2>
+<ul class="block">
+  <li>
+    <h3>Python</h3>
+    <address>3.8</address>
+    <span>Use for most backend services, ETL and automation scripts. Confidence level 8/10</span>
+    <ul>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <h3>JavaScript</h3>
+    <address>ES6</address>
+    <span></span>
+    <ul>
+      <li>Using mostly React now, having built services in Node.js and frontend with Angular and vanilla JS</li>
+    </ul>
+  </li>
+  <li>
+    <h3>SQL</h3>
+    <address>MySQL 5.7+, PostgreSQL</address>
+    <span></span>
+    <ul>
+      <li>Can join tables, can stored procedures, likes to optimize queries</li>
+    </ul>
+  </li>
+  <li>
+    <h3>Go, Bash, C, PHP, Ruby on Rails, VBA, HTML/CSS</h3>
+    <address></address>
+    <span></span>
+    <ul>
+      <li>Can make things work well enough when needed</li>
+    </ul>
+  </li>
+</ul>
+</li>
+      <li><h2>Interests</h2>
+<ul class="block">
+  <li>
+    <h3>Volunteering</h3>
+    <p>Board trustee for charity, lead digital transformation, review budgets and governance
+  </li>
+  <li>
+    <h3>Making things</h3>
+    <p>Knitting, Arduino, Fushion 360</p>
+  </li>
+  <p></p>
+</ul>
+</li>
+    </ul>
+  </body>
+</html>
